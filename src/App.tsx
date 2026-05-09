@@ -171,8 +171,12 @@ const HomePage = () => {
       {/* Hero Section */}
       <section className="relative h-[95vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          {/* This is the fixed clean background replacing the broken image */}
-          <div className="absolute inset-0 bg-pink-50"></div>
+          <img
+            src="/homepage-background.jpg"
+            alt="Luxury Pink Nails"
+            className="w-full h-full object-cover scale-100 object-center"
+          />
+          {/* This gradient keeps the text readable over the image */}
           <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-white/50 to-white/90"></div>
         </div>
         
