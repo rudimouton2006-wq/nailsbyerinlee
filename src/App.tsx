@@ -6,7 +6,7 @@
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Instagram, Phone, MapPin, CreditCard, ChevronRight, Clock, Star } from 'lucide-react';
+import { Menu, X, Instagram, Phone, MapPin, CreditCard, Clock, Star } from 'lucide-react';
 
 // --- Shared Components ---
 
